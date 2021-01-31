@@ -13,12 +13,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
 
     private String name;
-
+    private String numHours;
+    
     /**
      * Get the value of name
      *
      * @return the value of name
      */
+    public String getNumHours(){
+        return numHours;
+    }
     public String getName() {
         return name;
     }
